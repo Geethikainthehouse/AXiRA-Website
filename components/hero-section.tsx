@@ -26,14 +26,7 @@ export default function HeroSection() {
           className={`absolute inset-0 bg-creamwhite transition-opacity duration-1000 ${isLoaded ? "opacity-0" : "opacity-100"} z-20`}
         />
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/assets/hero.jpg"
-            alt="AXiRA Hero Background"
-            fill={true}
-            className="object-cover"
-            sizes="100vw"
-            priority
-          />
+        <img src="assets/hero.jpg" alt="Hero image">
         </div>
       </div>
 
